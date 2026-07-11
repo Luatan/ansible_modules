@@ -161,6 +161,8 @@ def main():
                             "oz",
                         ],
                     ),
+                    profile=dict(required=False, type="raw"),
+                    attributes=dict(required=False, type="dict"),
                     comments=dict(required=False, type="str"),
                     tags=dict(required=False, type="list", elements="raw"),
                     custom_fields=dict(required=False, type="dict"),
